@@ -14,6 +14,7 @@
 		BCF47FE51D07F13E00F2B33F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF47FE41D07F13E00F2B33F /* Images.xcassets */; };
 		BCF47FE81D07F13E00F2B33F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF47FE61D07F13E00F2B33F /* LaunchScreen.xib */; };
 		BCF47FF41D07F13F00F2B33F /* ZBFreeLimitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF47FF31D07F13F00F2B33F /* ZBFreeLimitTests.m */; };
+		BCF47FFF1D07F5E400F2B33F /* ZBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF47FFE1D07F5E400F2B33F /* ZBViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		BCF47FED1D07F13F00F2B33F /* ZBFreeLimitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBFreeLimitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF47FF21D07F13F00F2B33F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCF47FF31D07F13F00F2B33F /* ZBFreeLimitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBFreeLimitTests.m; sourceTree = "<group>"; };
+		BCF47FFD1D07F5E400F2B33F /* ZBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBViewController.h; sourceTree = "<group>"; };
+		BCF47FFE1D07F5E400F2B33F /* ZBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				BCF47FDC1D07F13E00F2B33F /* AppDelegate.m */,
 				BCF47FDE1D07F13E00F2B33F /* ViewController.h */,
 				BCF47FDF1D07F13E00F2B33F /* ViewController.m */,
+				BCF47FFD1D07F5E400F2B33F /* ZBViewController.h */,
+				BCF47FFE1D07F5E400F2B33F /* ZBViewController.m */,
 				BCF47FE11D07F13E00F2B33F /* Main.storyboard */,
 				BCF47FE41D07F13E00F2B33F /* Images.xcassets */,
 				BCF47FE61D07F13E00F2B33F /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCF47FFF1D07F5E400F2B33F /* ZBViewController.m in Sources */,
 				BCF47FE01D07F13E00F2B33F /* ViewController.m in Sources */,
 				BCF47FDD1D07F13E00F2B33F /* AppDelegate.m in Sources */,
 				BCF47FDA1D07F13E00F2B33F /* main.m in Sources */,
@@ -418,6 +424,7 @@
 				BCF47FF91D07F13F00F2B33F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCF47FFA1D07F13F00F2B33F /* Build configuration list for PBXNativeTarget "ZBFreeLimitTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				BCF47FFC1D07F13F00F2B33F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
